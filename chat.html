@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/27a1e9d76d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chat | Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">21:47</span>
+      </div>
+      <div class="status-bar__column"></div>
+      <i class="fas fa-clock"></i>
+      <i class="fas fa-volume-mute"></i>
+      <i class="fas fa-wifi"></i>
+      <span class="staus-bar__battery-level">50%</span>
+      <i class="fas fa-battery-half"></i> 
+    </div>
+    <div>
+      <header class="header">
+        <div class="header__header-column">
+          <a href="index.html">
+            <i class="fas fa-arrow-left fa-2x"></i>
+            <h1 class="header__title">
+                Best FRiend
+            </h1>
+          </a>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+              <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </header>
+      <main class="chat">
+          <ul class="chat__messages">
+              <span class="chat__timestamp">Friday, Fanuary 11, 2019</span>
+              <li class="incoming-message message">
+                  <img src="img/jjw.jpg" width="10%" height="10%" class="g-avatar message__avatar"/>
+                  <div class="massage__content">
+                      <span class="message__authr">Bset Friend</span>
+                      <div class="message__bubble">
+                            Hi!
+                      </div>
+                  </div>
+                  <span class="message__timestamp"></span>
+              </li>
+              <li class="incoming-message message">
+                  <div class="massage__content">
+                      <div class="message__bubble">
+                            Hi!
+                      </div>
+                  </div>
+                  <span class="message__timestamp"></span>
+              </li>
+          </ul>
+      </main>
+      <div class="chat__write">
+          <div class="chat__write-column">
+              <i class="far fa-plus-square"></i>          
+            </div>
+          <div class="chat__write-column">
+              <input type="text" placeholder="Send message" class="chat__write-input"/>
+          </div>
+          <div class="chat__write-column">
+              <span class="chat__write-icon">
+                  <i class="far fa-smile-wink"></i>
+              </span>
+              <span class="chat__write-icon">
+                  <i class="fas fa-microphone"></i>
+            </span>
+          </div>
+      </div>
+  </body>
+</html>
