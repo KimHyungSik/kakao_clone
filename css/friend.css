@@ -28,6 +28,7 @@
 
 .friend__content .friend__name {
   display: block;
+  font-weight: 900;
   margin-bottom: 5px;
 }
 
@@ -44,4 +45,24 @@
 .friend__content .friend__status,
 .friend .chat__timestamp {
   font-size: 12px;
+}
+
+.friend .friend__now-listening {
+  border: 1px solid #24e76c;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.friend__now-listening span {
+  opacity: 0.7;
+}
+
+.find .friend__add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8e98a0;
+  border-radius: 5px;
+  padding: 10px 15px;
 }
