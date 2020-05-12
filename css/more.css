@@ -1,0 +1,9 @@
+.more__btn-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more_btn .more__btn-icon {
+  display: block;
+}

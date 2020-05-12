@@ -1,0 +1,15 @@
+.status-bar {
+  display: flex; /*가로정렬*/
+  justify-content: space-between; /*거리 띄우기*/
+  margin-bottom: 30px;
+  opacity: 0.7;
+  font-family: "Lato", sans-serif;
+}
+
+.status-bar i {
+  font-size: 14px;
+}
+
+.status-bar .staus-bar__battery-level {
+  margin-left: 5px;
+}
