@@ -1,9 +1,44 @@
-.more__btn-list {
+.more__btn-list,
+.more__suggestions-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+
+.more__btn-list .more_btn,
+.more .suggestion {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.more_btn .more__btn-icon {
-  display: block;
+.more__btn-list .more__btn-title {
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+.more .more__suggestions {
+  margin: 30px 0px;
+  padding: 30px 0px;
+  border-top: 1px solid #2e3439;
+}
+.more__suggestions .more__title {
+  font-size: 18px;
+  margin-bottom: 18px;
+  opacity: 0.8;
+}
+
+.suggestion .suggestion__title {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.suggestion .suggestion__icon {
+  background-color: #fce006;
+  padding: 10px;
+  border-radius: 8px;
+}
+.suggestion__icon i {
+  font-size: 27px;
+  color: white;
 }
